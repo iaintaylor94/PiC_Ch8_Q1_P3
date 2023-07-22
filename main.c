@@ -10,13 +10,14 @@ int main(void) {
 
   // Loop five times
   for (i = 1; i <= 5; i++) {
-    printMessage ();
+    printMessage();
   }
-  
+
+  // Exit program
   return 0;
 }
 
 // Define Functions
-void printMesage (void) {
+void printMessage (void) {
   printf ("Programming is Fun!\n");
 }
